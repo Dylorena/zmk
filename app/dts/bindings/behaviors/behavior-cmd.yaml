@@ -1,0 +1,9 @@
+description: Behavior command for studio unlock
+compatible: "zmk,behavior-cmd"
+
+include: one_param.yaml
+
+properties:
+  label:
+    type: string
+    required: true
